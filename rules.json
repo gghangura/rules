@@ -14,8 +14,8 @@
 	"ContentCheckerRules": {
 		"SafeBrowsing_CheckType": "CLOUD",
 		"SafeMessaging_CheckType": "CHECK_LIST_ONLY",
-        "DeviceSecurity_CheckType": "CLOUD",
-        "DeviceSoftware_CheckType": "ON_DEVICE",
+		"DeviceSecurity_CheckType": "CLOUD",
+		"DeviceSoftware_CheckType": "ON_DEVICE",
 		"AllowedDomainURLs": [],
 		"DisallowedDomainURLs": [],
 		"AllowedIPs": [],
