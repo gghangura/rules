@@ -1,16 +1,4 @@
 {
-	"MalwareScanRules": {
-		"MalwareUploadType": "WIFI",
-		"MalwareScanTrigger": "CONTINUOUS",
-		"MalwareUploadItemSizeLimit_None": -1,
-		"MalwareUploadItemSizeLimit_Cellular": 50,
-		"MalwareUploadItemSizeLimit_WiFi": 100,
-		"MalwareUploadItemSizeLimit_Cellular_WiFi": -1,
-		"MalwareUploadMonthlySizeLimit_None": -1,
-		"MalwareUploadMonthlySizeLimit_Cellular": 500,
-		"MalwareUploadMonthlySizeLimit_WiFi": 1000,
-		"MalwareUploadMonthlySizeLimit_Cellular_WiFi": -1
-	},
 	"ContentCheckerRules": {
 		"SafeBrowsing_CheckType": "CLOUD",
 		"SafeMessaging_CheckType": "CHECK_LIST_ONLY",
@@ -24,16 +12,10 @@
 	"DeviceSecurityRules": {
 		"DeviceLockScreen_Check": "Enabled",
 		"DeviceLockScreen_EnforcementAction": "NOTIFY",
-		"DeveloperMode_Check": "Enabled",
-		"DeveloperMode_EnforcementAction": "NOTIFY",
-		"DeviceEncryption_Check": "Enabled",
-		"DeviceEncryption_EnforcementAction": "NOTIFY",
-		"JailbreakDetection_Check": "Enabled",
-		"JailbreakDetection_EnforcementAction": "NOTIFY",
-		"AndroidHWKeyVerifyBoot_Check": "Enabled",
-		"AndroidHWKeyVerifyBoot_EnforcementAction": "NOTIFY",
 		"DebugDetection_Check": "Enabled",
 		"DebugDetection_EnforcementAction": "NOTIFY",
+		"JailbreakDetection_Check": "Enabled",
+		"JailbreakDetection_EnforcementAction": "NOTIFY",
 		"HookDetection_Check": "Enabled",
 		"HookDetection_EnforcementAction": "NOTIFY"
 	},
@@ -46,6 +28,10 @@
 		"ModelDenyList": [],
 		"MinimumOSVersion": "0",
 		"SecurityPatchMinimumDate": 0
+	},
+	"iOSDeviceSoftwareRules": {
+		"DeviceOSSoftware_Check": "Enabled",
+		"MinimumOSVersion": "12"
 	},
 	"DataCollectionRules": {
 		"DataCollectionEnabled": true,
