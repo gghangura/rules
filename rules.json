@@ -34,16 +34,8 @@
 		"MinimumOSVersion": "12"
 	},
 	"DataCollectionRules": {
-		"DataCollectionEnabled": true,
+		"DataCollectionEnabled": "Enabled",
 		"UploadType": "WIFI_WHILE_CHARGING",
 		"UploadMonthlyLimit": "LIMIT_10MB"
-	},
-	"Features": {
-		"AppMalware_Enabled": "ENABLED",
-		"AppSideload_Enabled": "ENABLED",
-		"DeviceSecurity_Enabled": "ENABLED",
-		"DeviceSoftware_Enabled": "ENABLED",
-		"SafeBrowsing_Enabled": "ENABLED",
-		"SafeMessaging_Enabled": "ENABLED"
-		}
+	}
 }		
