@@ -15,19 +15,7 @@
 		"DebugDetection_Check": "Enabled",
 		"DebugDetection_EnforcementAction": "NOTIFY",
 		"JailbreakDetection_Check": "Enabled",
-		"JailbreakDetection_EnforcementAction": "NOTIFY",
-		"HookDetection_Check": "Enabled",
-		"HookDetection_EnforcementAction": "NOTIFY"
-	},
-	"AndroidDeviceSoftwareRules": {
-		"DeviceSecurityPatchSoftware_Check": "Enabled",
-		"DeviceOSSoftware_Check": "Enabled",
-		"DeviceManufacturer_Check": "Enabled",
-		"DeviceModel_Check": "Enabled",
-		"ManufacturerDenyList": [],
-		"ModelDenyList": [],
-		"MinimumOSVersion": "0",
-		"SecurityPatchMinimumDate": 0
+		"HookDetection_Check": "Enabled"
 	},
 	"iOSDeviceSoftwareRules": {
 		"DeviceOSSoftware_Check": "Enabled",
